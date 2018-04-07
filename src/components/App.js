@@ -3,7 +3,9 @@ import { Form, FormControl, Button } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component{
-
+	constructor(){
+		super();
+	}
 	render(){
 		return (
 			<div className="App">
