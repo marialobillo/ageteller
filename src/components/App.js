@@ -36,7 +36,9 @@ class App extends Component{
 						<Button onClick={() => this.changeBirthday()}>Submit</Button>
 						{
 							this.state.showStats ?
+								<div className="fade age-stats">
 								<AgeStats date={this.state.birthday} />
+							</div>
 							:
 							<div></div>
 						}

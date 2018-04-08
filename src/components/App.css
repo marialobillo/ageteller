@@ -7,3 +7,17 @@
 	width: 200px;
 	margin: 0 auto;
 }
+
+.fade{
+	animation-name: fade-in;
+	animation-duration: 3s;
+}
+
+@@keyframes  fade-in {
+	from { opacity: 0 }
+	to { opacity: 100 }
+}
+
+.age-stats{
+	opacity: 100
+}
